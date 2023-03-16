@@ -1,0 +1,12 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: deeppink;
+}
+
+@media (min-width: 768px) {
+  .box {
+    background-color: blue;
+  }
+}
+/*768을 기준으로 창 사이즈가 작으면 deeppink로 크면 blue로 된다.*/
