@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.logo {
+  width: 150px;
+}
+
+button {
+  background-color: white;
+  border: 0;
+  display: none;
+}
+
+.New {
+  background-color: aqua;
+  color: blue;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 9999px;
+  margin-right: 40px;
+  font-size: 10px;
+}
+
+.user {
+  width: 24px;
+  display: none;
+}
+
+.globe {
+  width: 24px;
+  display: none;
+}
+
+.search {
+  width: 24px;
+}
+.dots {
+  width: 24px;
+}
+
+@media (min-width: 700px) {
+  button {
+    display: inline-block;
+  }
+  .user {
+    display: inline-block;
+  }
+  .globe {
+    display: inline-block;
+  }
+  .search {
+    display: none;
+  }
+  .dots {
+    display: none;
+  }
+}
